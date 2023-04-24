@@ -32,10 +32,10 @@ To install and use the Employee Management System, follow these steps:
 
 Dependencies
 
-* Node.js
-* MySQL2
-* Readline-sync
-* Console.table
-* Dotenv
+- Node.js
+- MySQL2
+- Readline-sync
+- Console.table
+- Dotenv
 
 ***
