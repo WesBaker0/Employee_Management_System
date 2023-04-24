@@ -1,0 +1,26 @@
+{
+  "name": "intro_to_sql_databases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesBaker0/Intro_to_SQL_Databases.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WesBaker0/Intro_to_SQL_Databases/issues"
+  },
+  "homepage": "https://github.com/WesBaker0/Intro_to_SQL_Databases#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.3",
+    "readline-sync": "^1.4.10"
+  }
+}
