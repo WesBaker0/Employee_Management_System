@@ -198,7 +198,7 @@ Please enter the corresponding number: `);
 
                         connection.query('UPDATE employee SET manager_id = ? WHERE id = ?', [selectedManagerId, selectedEmployeeId], (err) => {
                             if (err) throw err;
-                            console.log('Employee manager updated successfully.');
+                            console.log('\x1b[32m%s\x1b[0m', 'Employee manager updated successfully.');
                             this.startApp();
                         });
                     });
@@ -214,7 +214,7 @@ Please enter the corresponding number: `);
 
         connection.query('INSERT INTO department (name) VALUES (?)', [departmentName], (err) => {
             if (err) throw err;
-            console.log('Department added successfully.');
+            console.log('\x1b[32m%s\x1b[0m', 'Department added successfully.');
             this.startApp();
         });
     },
@@ -237,7 +237,7 @@ Please enter the corresponding number: `);
 
             connection.query('INSERT INTO role (title, salary, department_id) VALUES (?, ?, ?)', [title, salary, selectedDepartmentId], (err) => {
                 if (err) throw err;
-                console.log('Role added successfully.');
+                console.log('\x1b[32m%s\x1b[0m', 'Role added successfully.');
                 this.startApp();
             });
         });
@@ -268,7 +268,7 @@ Please enter the corresponding number: `);
 
                 connection.query('INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES (?, ?, ?, ?)', [firstName, lastName, selectedRoleId, selectedManagerId], (err) => {
                     if (err) throw err;
-                    console.log('Employee added successfully.');
+                    console.log('\x1b[32m%s\x1b[0m', 'Employee added successfully.');
                     this.startApp();
                 });
             });
@@ -291,7 +291,7 @@ Please enter the corresponding number: `);
 
             connection.query('DELETE FROM department WHERE id = ?', [selectedDepartmentId], (err) => {
                 if (err) throw err;
-                console.log('Department deleted successfully.');
+                console.log('\x1b[32m%s\x1b[0m', 'Department deleted successfully.');
                 this.startApp();
             });
         });
@@ -313,7 +313,7 @@ Please enter the corresponding number: `);
 
             connection.query('DELETE FROM role WHERE id = ?', [selectedRole.id], (err) => {
                 if (err) throw err;
-                console.log('Role deleted successfully.');
+                console.log('\x1b[32m%s\x1b[0m', 'Role deleted successfully.');
 
                 connection.query('UPDATE employee SET role_id = NULL WHERE role_id = ?', [selectedRole.id], (err) => {
                     if (err) throw err;
@@ -340,7 +340,7 @@ Please enter the corresponding number: `);
 
             connection.query('DELETE FROM employee WHERE id = ?', [selectedEmployeeId], (err) => {
                 if (err) throw err;
-                console.log('Employee deleted successfully.');
+                console.log('\x1b[32m%s\x1b[0m', 'Employee deleted successfully.');
                 this.startApp();
             });
         });
