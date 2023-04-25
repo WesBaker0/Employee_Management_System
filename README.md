@@ -1,10 +1,6 @@
 # Employee Management System
 
-
-
-https://user-images.githubusercontent.com/131714206/234142787-da63013d-a847-4a9a-9c5c-7944bc012ad8.mp4
-
-
+https://user-images.githubusercontent.com/131714206/234172458-dec71f28-2f7c-47c8-98e8-45bccfda27f7.mp4
 
 ## Description
 
