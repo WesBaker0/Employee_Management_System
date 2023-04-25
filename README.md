@@ -1,5 +1,7 @@
 # Employee Management System
 
+https://user-images.githubusercontent.com/131714206/234142787-da63013d-a847-4a9a-9c5c-7944bc012ad8.mp4
+
 ## Description
 
 Employee Management System is a command-line application that allows users to view, add, and update data related to their organization's departments, roles, and employees. This application is built using Node.js, MySQL, and the Readline-sync package, making it easy for users to interact with their database in a user-friendly manner.
@@ -28,7 +30,3 @@ To install and use the Employee Management System, follow these steps:
 - MySQL2
 - Readline-sync
 - Dotenv
-
-
-https://user-images.githubusercontent.com/131714206/234142787-da63013d-a847-4a9a-9c5c-7944bc012ad8.mp4
-
