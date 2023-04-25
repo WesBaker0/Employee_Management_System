@@ -27,7 +27,6 @@ To install and use the Employee Management System, follow these steps:
 - Node.js
 - MySQL2
 - Readline-sync
-- Console.table
 - Dotenv
 
 ***
