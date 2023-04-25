@@ -4,15 +4,11 @@
 
 Employee Management System is a command-line application that allows users to view, add, and update data related to their organization's departments, roles, and employees. This application is built using Node.js, MySQL, and the Readline-sync package, making it easy for users to interact with their database in a user-friendly manner.
 
-***
-
 ## Features
 
 1. View all departments, roles, and employees
 2. Add a new department, role, or employee
 3. Update an existing employee's role
-
-***
 
 ## Installation
 
@@ -25,8 +21,6 @@ To install and use the Employee Management System, follow these steps:
 5. Update the .env file to your personal mysql username and password. 
 6. In your terminal/command prompt, navigate to the root directory of the cloned repository and run node server.js to start the application.
 7. Follow the on-screen prompts to manage your organization's departments, roles, and employees.
-
-***
 
 ## Dependencies
 
