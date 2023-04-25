@@ -6,9 +6,9 @@ Employee Management System is a command-line application that allows users to vi
 
 ## Features
 
-1. View all departments, roles, and employees
-2. Add a new department, role, or employee
-3. Update an existing employee's role
+- View all departments, roles, and employees
+- Add a new department, role, or employee
+- Update an existing employee's role
 
 ## Installation
 
